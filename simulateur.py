@@ -175,7 +175,7 @@ def menu_principal():
         print("9. Charger")
         print("0. Quitter")
         choix = input("Choix > ").strip()
-        
+         
         try:
             if choix == "1":
                 numero = input("Numéro: ").strip()
